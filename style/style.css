@@ -10,6 +10,8 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+    /* Body styles */
 body{
     background-color: #F5F8FF;
     max-width: 1440px;
@@ -18,7 +20,8 @@ body{
 *{
     margin: 0%;
 }
-/* shared style */
+
+    /* shared style */
 .btn{
     height: 48px;
     border-radius: 10px;
@@ -27,7 +30,12 @@ body{
     border: none;
     font-size: 16px;
 }
-/* Nav bar */
+.btn:hover{
+    background-color:#8581fa;
+    cursor: pointer;
+}
+
+    /* Header-Banner Section */
 .main-header{
     background-image: url(Hero-bg.png);
     width: 1440px;
@@ -36,7 +44,6 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 50px 150px;
 
 }
@@ -46,10 +53,6 @@ body{
     color: #4E47FF;
 }.nav-btn{
     width: 132px;
-}
-.nav-btn:hover{
-    background-color:#8581fa;
-    cursor: pointer;
 }
 .header-dv{
     text-align: center;
@@ -62,4 +65,31 @@ body{
 }
 .focusd-btn{
     width: 174px;
+}
+
+    /* Section One */
+.sec-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    margin: 116px 159px 140px;
+}
+.sec-one-h{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.sec-one-para{
+    font-size: 24px;
+    color: #252432;
+    margin: 23px 0px 23px 0px;
+}
+.sec-one-btn{
+    width: 229px;   
+    font-size: 16px;
+    font-weight: bold;
+}
+.sec-one-wc-img{
+    border-radius: 48px;
 }
