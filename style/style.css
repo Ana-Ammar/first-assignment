@@ -174,3 +174,38 @@ body{
 }
 
     /* Section Four */
+.sec-four{
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 696px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 137px;
+    margin-bottom: 92px;
+    box-sizing: border-box;
+
+}
+.sec-four-h{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-four-p{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-four-btn{
+    display: block;
+    width: 195px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.sec-four-img{
+    border-radius: 48px;
+}
+
+    /* Section Five */
