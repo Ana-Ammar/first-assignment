@@ -13,12 +13,14 @@
 
     /* Body styles */
 body{
+    width: 1440px;
     background-color: #F5F8FF;
-    max-width: 1440px;
-    margin: 0% auto;
+    margin: 0 auto;
 }
 *{
     margin: 0%;
+    padding: 0%;
+
 }
 
     /* shared style */
@@ -39,7 +41,7 @@ body{
     /* Header-Banner Section */
 .main-header{
     background-image: url(Hero-bg.png);
-    width: 1440px;
+    max-width: 1440px;
     height: 698px;
 }
 .nav{
@@ -267,8 +269,9 @@ body{
     height: 428px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
-    padding: 104px;
+    padding-top: 104px;
     box-sizing: border-box;
+    margin: 0% auto;
     
 }
 .footr-logo-dv{
@@ -291,7 +294,6 @@ body{
     gap: 48px;
     justify-content: center;
     align-items: center;
-    padding: 0;
 
 }
 footer ul li a{
