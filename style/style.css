@@ -1,13 +1,13 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -87,7 +87,7 @@ body{
 }
 .sec-one-para{
     font-size: 24px;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     margin: 23px 0px 23px 0px;
 }
 .sec-one-btn{
@@ -252,6 +252,8 @@ body{
 }
 .sec-five-txtarea::placeholder{
     font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
 .sec-five-btn{
     width: 535px;
